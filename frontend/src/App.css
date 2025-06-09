@@ -1,0 +1,342 @@
+ .landingPageContainer {
+  width: 100vw;
+  height: 100vh;
+   /* background: url("/public/background.png"); */
+  background: url("/public/background1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+/*
+.landingPageContainer nav {
+  padding-inline: 1.2rem;
+  padding-block: 1.6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.landingPageContainer nav h2 {
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.landingPageContainer nav .navlist {
+  display: flex;
+  gap: 1.6rem;
+  cursor: pointer;
+
+}
+
+.landingMainContainer {
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 3rem;
+  height: 80vh;
+  align-items: center;
+}
+
+.landingMainContainer>div:nth-child(1) {
+  font-size: 2.2rem;
+}
+
+.landingMainContainer>div:nth-child(1) div[role='button'] {
+  background: #005ed9;
+  width: fit-content;
+  padding: 1rem;
+  border-radius: 20px;
+  margin-top: 1.9rem;
+}
+
+.landingMainContainer>div:nth-child(1) div[role='button'] a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.7rem;
+}
+
+.landingMainContainer>div:nth-child(2) img {
+  height: 70vh;
+  width: auto;
+}
+
+.navBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: 20px;
+  text-align: center;
+
+}
+.meetContainer {
+  display: flex;
+  padding-inline: 20px;
+  height: 80vh;
+  gap: 10vw;
+  justify-content: center;
+}
+
+
+
+.leftPanel {
+  height: 100%;
+  display: flex;
+  align-items: center;
+
+}
+
+.rightPanel {
+  display: flex;
+  align-items: center;
+}
+
+.rightPanel > img {
+  width: 30vw;
+  height: auto;
+  border-radius: 20px;
+}  
+
+
+.landingPageContainer {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: "Segoe UI", sans-serif;
+  /* background: #f5f7fa; */
+   /* background: url("/public/background1.jpg");  */
+  /* color: #333; */
+/*} */
+
+nav.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
+  background-color: #bab5b5;
+  /* box-shadow: 0 2px 6px rgba(0,0,0,0.1); */
+}
+
+.navHeader h1 {
+  margin: 0;
+  font-size: 1.5rem;
+   color: #2c5ef5; 
+}
+
+
+.navList {
+  display: flex;
+  gap: 2.5rem;
+  align-items: center;
+  
+}
+
+.navList h3 {
+  cursor: pointer;
+  color:#3a3939;
+  transition:opacity 0.3s ease;
+}
+
+.navList h3:hover {
+  opacity: 0.75;
+}
+
+.big-font {
+  font-size: 32px; /* You can increase this value as needed */
+}
+
+
+.landingMain {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 1rem;
+  flex-wrap: wrap;
+}
+
+.ctaButtons button {
+    margin-right: 1rem;
+    padding: 0.6rem 1.2rem;
+    border-radius: 30px;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.ctaButtons .outline {
+    background: transparent;
+    border: 2px solid #396aff;
+    background-color: #396aff;
+  color: white;
+}
+.ctaButtons button:hover {
+    opacity: 0.9;
+}
+
+.textContent {
+  flex: 1;
+  min-width: 280px;
+  max-width: 500px;
+}
+
+.textContent h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.primary {
+  color: #396aff;
+}
+
+.getStartedBtn {
+  display: inline-block;
+  margin-top: 1rem;
+  background-color: #396aff;
+  color: white;
+  padding: 0.7rem 1.4rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.getStartedBtn:hover {
+  background-color: #2f55cc;
+}
+
+.imageWrapper {
+  flex: 1;
+  min-width: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0rem;
+}
+
+.blendedImage {
+  width: 390px;
+  height: 390px;
+  object-fit: cover;
+  border-radius: 50%;
+  -webkit-mask-image: radial-gradient(circle, rgba(0, 0, 0, 1) 65%, rgba(0, 0, 0, 0) 100%);
+  mask-image: radial-gradient(circle, rgba(0, 0, 0, 1) 65%, rgba(0, 0, 0, 0) 100%);
+  transition: transform 0.3s ease;
+}
+
+.blendedImage:hover {
+  transform: scale(1.05);
+}
+
+footer {
+    text-align: center;
+    justify-content: space-between;
+    padding: 0.5rem;
+    font-size: 0.9rem;
+    margin-top: 2.5rem;
+    background-color: #a7aaac;
+    color: #495057;
+}
+
+.navBar {
+  background-color: white;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.meetContainer {
+  background: linear-gradient(to right, #f4f7ff, #e3eeff);
+}
+
+
+
+
+/* 
+ .landingPageContainer {
+    font-family: 'Segoe UI', sans-serif;
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(to bottom, #f8f9fa, #e9ecef);
+}
+
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.navlist h3 {
+    margin-left: 20px;
+    cursor: pointer;
+    color: #396aff;
+    transition: color 0.2s;
+}
+.navlist h3:hover {
+    color: #003cb3;
+}
+
+.landingMainContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2rem;
+    gap: 3rem;
+    background: #ffffff;
+}
+
+.heroText {
+    max-width: 500px;
+}
+.heroText h1 {
+    font-size: 2.5rem;
+}
+.heroText p {
+    margin: 1rem 0;
+    font-size: 1.1rem;
+}
+
+.ctaButtons button {
+    margin-right: 1rem;
+    padding: 0.6rem 1.2rem;
+    border-radius: 30px;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.ctaButtons .outline {
+    background: transparent;
+    border: 2px solid #396aff;
+    color: #396aff;
+}
+.ctaButtons button:hover {
+    opacity: 0.9;
+}
+
+.heroImage img {
+    border-radius: 20px;
+    width: 400px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem 0;
+    background-color: #f1f3f5;
+}
+.featureBox {
+    text-align: center;
+}
+.featureBox img {
+    width: 50px;
+    margin-bottom: 0.5rem;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+    background-color: #dee2e6;
+    color: #495057;
+} */
+
